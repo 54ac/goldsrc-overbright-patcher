@@ -5,7 +5,7 @@ repl = b"\x83\xC4\x04\x3B\xC6\x7D\x14\x56\x68\x28\x73"
 fname = "hw.dll"
 
 try:
-    with open(fname,"rb") as f:
+    with open(fname, "rb") as f:
         content = f.read()
         newcontent = content.replace(orig, repl)
         f.close()
