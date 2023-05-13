@@ -2,7 +2,7 @@
 
 ### What is this?
 
-This is a short Python script which changes one byte in the latest hw.dll (August 2020 as of now - CRC32 `F7DCFFD9`), [fixing the gl_overbright command](https://github.com/ValveSoftware/halflife/issues/230) in Goldsrc games like Half-Life. Eliminates the need for third party tools like GLIntercept. Might disable detail textures, but they are not used in the base game anyway. [Put the .py script](https://raw.githubusercontent.com/rowrawer/goldsrc-overbright-patcher/main/hwpatcher.py) in the same folder as hw.dll and launch with `python hwpatcher.py` in the command line. The original file will be backed up as hw.bak. Would not recommend for online play, just in case.
+This is a short Python script which changes one byte in the latest hw.dll (August 2020 as of now - CRC32 `F7DCFFD9`), [fixing the gl_overbright command](https://github.com/ValveSoftware/halflife/issues/230) in Goldsrc games like Half-Life. Eliminates the need for third party tools like GLIntercept. Might disable detail textures, but they are not used in the base game anyway. [Put the .py script](https://raw.githubusercontent.com/54ac/goldsrc-overbright-patcher/main/hwpatcher.py) in the same folder as hw.dll and launch with `python hwpatcher.py` in the command line. The original file will be backed up as hw.bak. Would not recommend for online play, just in case.
 
 ### Slightly more detailed explanation
 
