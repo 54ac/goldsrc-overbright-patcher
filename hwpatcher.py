@@ -18,7 +18,6 @@ with open(HW_FILENAME, "rb") as f:
     file_crc = binascii.crc32(content) & 0xFFFFFFFF
     f.close()
 
-# assign correct byte position per hw.dll version
 if file_crc == PATCHED_CRC:
     input("hw.dll is already patched")
     quit()
