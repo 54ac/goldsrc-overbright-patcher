@@ -7,3 +7,7 @@ This is a short Python script which changes one byte in the pre-Anniversary Upda
 ### Slightly more detailed explanation
 
 When hw.dll establishes GL_ARB_multitexture support, it calculates the amount of available texture units. Then, if any texture units are detected, overbright gets disabled. This patch changes one byte to keep gl_overbright available regardless of the amount of texture units. If you want to do it manually, open hw.dll with a hex editor, go to offset `290143`, and change `74` to `7D`.
+
+### Note on Anniversary Update
+
+The 25th Anniversary Update uses gl_use_shaders to mimic the overbright effect, rendering this script obsolete.
